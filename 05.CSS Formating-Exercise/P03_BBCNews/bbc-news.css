@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    width: 890px;
+    font-family: Calibri Light, Verdana, sans-serif;
+    border: 1px solid #a5b2b3;
+}
+
+article {
+    display: inline-block;
+    width: 200px;
+    padding-left: 17px;
+    vertical-align: top;
+}
+
+img:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+}
+
+h3 {
+    text-align: center;
+}

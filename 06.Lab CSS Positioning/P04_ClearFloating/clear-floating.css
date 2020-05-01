@@ -1,0 +1,55 @@
+body {
+    width: 700px;
+}
+
+main {
+   width: 600px;
+   height: 200px;
+}
+
+header {
+    background: #8B603D;
+    color:#FFFFFB;
+    border: 1px solid black;
+    height: 100px;
+    text-align: left;
+ 
+    padding-top: 25px;
+}
+
+aside {
+    width: 150px;
+    float: left;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+ li {
+    list-style: none;
+    background-color:#33B5E5;
+    font-size: 17px;
+    color: #FFFFFB;
+    border: 1px solid;
+    padding: 6px;
+    margin-top: 3px;
+}
+
+article {
+    width: 550px;
+    padding-left: 160px;
+    padding-top:10px
+}
+
+footer {
+    background: #8B603D;
+    height: 80px;
+    text-align: left;
+    color: #FFFFFB;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+

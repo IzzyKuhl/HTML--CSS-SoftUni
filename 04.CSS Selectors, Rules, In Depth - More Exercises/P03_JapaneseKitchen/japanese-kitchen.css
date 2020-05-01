@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body {
+    font-size: 14px;
+    background: url(images/dark-wood.jpg);
+  }
+
+  header {
+    width: 1024px;
+    height: 140px;
+    margin: auto;
+    background-image: url(images/header-page.jpg);
+    background-size: cover;
+    border-bottom: 3px solid black;
+  }
+  header h1 {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 40px;
+    font-family: 'Times New Roman', sans-serif;
+  }
+
+  nav {
+    border-bottom: 3px solid black;
+    width: 1024px;
+    margin: auto;
+    background: url(images/header-page.jpg);
+  }
+
+  nav ul {
+    margin: 0;
+    line-height: 2;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li:first-of-type a {
+    color: black;
+    font-weight: bold;
+  }
+
+  nav a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff
+  }
+
+  nav a:hover {
+    color: black;
+    font-weight: bold;
+  }
+
+  main {
+    width: 1024px;
+    height: 600px;
+    margin: auto;
+    background:#fff;
+  }
+
+  section.courses {
+    float: left;
+    border-right: 1px solid #92979c;
+    height: 600px;
+  }
+
+  article {
+    width: 700px;
+    height: 250px;
+  }
+
+  article figure {
+    float: left;
+  }
+
+  figure {
+    border: 1px solid #DDDDDD;
+    padding: 7px;
+  }
+
+  figcaption {
+  color: #84818B;
+  font-size: 1em;  
+  }
+
+  div h2 {
+    font-weight: bold;
+  }
+
+  div h3 {
+    color: #e8ce85;
+    font-weight: bold;
+  } 
+
+  article p {
+    color: #92979c;
+  }
+
+  aside {
+    width: 200px;
+    float: right;
+    margin-right: 50px;
+  }
+
+  aside a {
+    color: #d9527a;
+    text-decoration: none;
+    display: block;
+  }
+
+  aside h2 {
+    color: #d9527a;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  aside ul {
+    padding: 10px;
+    list-style: none;
+  }
+
+  aside li {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 10px;
+  }
+
+
+
+
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(41, 41, 41);
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    text-decoration: none;
+}
+
+li {
+    color: grey;
+    text-transform: capitalize;
+    font-size: 20px;
+    list-style: none;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+article div div {
+    background: url('images/social.jpg');
+    display: inline-block;
+    width: 72px;
+    height: 60px;
+}
+
+.linkedin {
+    background-position: -194px; 
+    background-position-y: 622px;
+}
+
+.youtube {
+    background-position: -512px; 
+    background-position-y: 622px;
+}
+
+.twitter {
+    background-position: -67px; 
+    background-position-y: 622px;
+}
+
+.facebook:hover {
+    background-position: 0;
+    background-position-y:60px;
+    cursor: pointer;
+
+}
+

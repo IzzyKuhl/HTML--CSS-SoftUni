@@ -1,0 +1,152 @@
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body {
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    background-color: #24437c;
+}
+
+    nav img {
+      float: left;
+    }
+    
+    .nav-primary li {
+      display: inline-block;
+    } 
+
+    .nav-primary li a {
+      color: white;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 30px;
+      padding: 20px;
+    }
+
+    .nav-primary {
+      text-align: right;
+      padding-right: 60px;
+      padding-top: 25px;
+    }
+
+    .nav-primary li:last-of-type {
+      cursor: pointer;
+      background-color: #3DC1EF;
+      border-radius: 21px;
+      padding: 7px;
+    }
+
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 60px;
+      text-transform: capitalize;
+      padding-top: 109px;
+    }
+
+    .header-subtitle {
+      text-align: center;
+      color: darkgray;
+      font-size: 40px;
+      text-transform: capitalize;
+      padding-top: 109px;
+    }
+
+    #button-container {
+      background-color: #3DC1EF;
+      color: white;
+      text-transform: capitalize;
+      text-align: center;
+      font-size: 30px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 21px;
+      width: 10%;
+    }
+
+    .header-services {
+      display: inline-block;
+      text-align: center;
+    }
+
+    .service {
+      width: 19%;
+      color: white;
+      font-size: 25px;
+      display: inline-block;
+      padding: 55px;
+    }
+
+    .service-intro {
+      text-align: left;
+    }
+
+    .service-link {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding-top: 22px;
+    }
+
+    .service:hover {
+      background-color: #3DC1EF;
+      cursor: pointer;
+    }
+
+    .service-title {
+      text-align: left;
+    }
+
+
+
+
+
+  
+ 
+
