@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+aside {
+    float: left;
+    width: 260px;
+}
+
+aside h1 {
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+aside img {
+    width: 150px;
+    border: 1px none;
+    border-radius: 100px;
+    margin-left: 70px;
+}
+
+aside p {
+    text-align: center;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: #B8C5CD;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 15px;
+}
+
+li a { 
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #B8C5CD;
+    padding: 5px;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #333;
+    cursor: pointer;
+  }
+ 
+i {
+    color: #B8C5CD;
+}
+
+nav {
+    height: 200px;
+    padding: 20px;
+}
+
+nav h1 {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+h5 {
+    padding-top: 10px;
+    font-family: Arial, sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+nav p {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+button {
+    position: relative;
+    left: 800px;
+    bottom: 136px;
+    text-transform: uppercase;
+    border: 1px none #FF7739;
+    background-color: #FF7739;
+    border-radius: 20px;
+    padding: 14px;
+    color: #F4F5F7;
+
+}
+
+nav button i {
+    color:#F4F5F7;
+}
+
+button i {
+    margin-left: 5px;
+}
+  
+button:hover {
+    color: #ff7739;
+    background-color: #fff;
+    border: 3px solid #ff7739;
+    cursor: pointer;
+}
+
+main {
+    font-family: 'Comfortaa', sans-serif;
+    margin-left: 300px;
+    background-color: #F4F5F7;
+    
+}
+
+section {
+    height: 750px;
+}
+
+img {
+    width: 250px;
+}
+
+article {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height: 260px;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+article div {
+    position: relative;
+    text-transform: uppercase;
+    width: 87px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    padding: 4px;
+    top: 73px;
+    right: 17px;
+}
+
+.middle-paragraph {
+    text-transform: uppercase;
+}
+
+article p {
+    padding-left: 20px;
+    color: #91a5af;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: capitalize;
+  }
+  
+  .rented {
+    background-color: #91a5af; 
+    opacity: 0.7; 
+  }
+  
+  .listed {
+    background-color: #68bc69;
+  }
+  
+  .draft {
+    background-color: #91a5af;
+  }

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+body {
+    width: 1000px;
+    height: 1000px;
+    
+}
+
+h1 {
+    color: #8893A2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+}
+
+h2 {
+    text-align: center;
+    color: #8893A2;
+    font-weight: normal;
+    font-family: 'Vollkorn', serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    border: 1px none #EBEFF2;
+    border-width: 50px;
+    background-color: #EBEFF2;
+    padding: 30px;
+    line-height: 60px;
+    
+   
+}
+
+p {
+    text-align: center;
+    font-size:60px;
+    color: #8893A2;
+    font-family: 'Vollkorn', serif;
+    
+}
+
+article {
+    display: inline-block;
+    color: #8893A2;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: bottom;
+    height: 700px;
+    border: 1px dotted #8893A2;
+    margin: 10px;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px dotted #8893A2;
+    padding: 15px;
+}
+
+button {
+    padding: 20px 50px 20px 50px;
+    border: none;
+    color:white;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-left: 90px;
+    width: 200px;
+    background-color:#DDDDDD;
+}
+
+section {
+    height: 1000px;
+}
+
+
+.first-button {
+    margin-top: 130px;
+    margin-left: 45px;
+}
+.second-button {
+    margin-top: 80px;
+    margin-left: 45px;
+}
+
+.third-button {
+    margin-top: -30px;
+    margin-left: 45px;
+
+}
+
+.hover-effect:hover h2 {
+    background-color: #65D3E2;
+    cursor: pointer;
+}
+
+.hover-effect:hover p {
+    color: #65D3E2;
+    cursor: pointer;
+}
+
+.hover-effect:hover button {
+    background-color: #65D3E2;
+    cursor: pointer;
+}
